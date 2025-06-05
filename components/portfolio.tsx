@@ -52,33 +52,37 @@ export function Portfolio() {
   ]
 
   return (
-    <section id="portfolio" className="py-20 px-6 lg:px-8 bg-slate-800/50">
+    <section id="portfolio" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/50">
       <div className="container mx-auto max-w-7xl">
-        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-16 text-center">Portfolio</h2>
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-12 sm:mb-16 text-center px-4">
+          Portfolio
+        </h2>
 
         {/* Projects Section */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-semibold text-blue-300 mb-10 flex items-center">
-            <FolderOpen className="mr-3 h-8 w-8" />
+        <div className="mb-12 sm:mb-16 px-2 sm:px-0">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-blue-300 mb-8 sm:mb-10 flex items-center justify-center sm:justify-start">
+            <FolderOpen className="mr-2 sm:mr-3 h-6 w-6 sm:h-8 sm:w-8" />
             Projects & Presentations
           </h3>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {projects.map((project, index) => (
               <Card
                 key={index}
                 className="hover:shadow-2xl transition-all duration-300 bg-slate-800/80 border-slate-700 hover:border-blue-500/50"
               >
                 <CardHeader>
-                  <CardTitle className="text-white text-xl">{project.title}</CardTitle>
-                  <CardDescription className="text-slate-300">{project.description}</CardDescription>
+                  <CardTitle className="text-white text-lg sm:text-xl">{project.title}</CardTitle>
+                  <CardDescription className="text-slate-300 text-sm sm:text-base">
+                    {project.description}
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="flex flex-wrap gap-3 mb-6">
+                  <div className="flex flex-wrap gap-2 sm:gap-3 mb-4 sm:mb-6">
                     {project.tags.map((tag, tagIndex) => (
                       <Badge
                         key={tagIndex}
                         variant="secondary"
-                        className="bg-blue-600/20 text-blue-300 border-blue-500/30"
+                        className="bg-blue-600/20 text-blue-300 border-blue-500/30 text-xs sm:text-sm"
                       >
                         {tag}
                       </Badge>
@@ -87,7 +91,7 @@ export function Portfolio() {
                   <Button
                     asChild
                     variant="outline"
-                    className="border-blue-500 text-blue-300 hover:bg-blue-600/20 hover:text-blue-200"
+                    className="w-full sm:w-auto border-blue-500 text-blue-300 hover:bg-blue-600/20 hover:text-blue-200"
                   >
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="mr-2 h-4 w-4" />
@@ -101,23 +105,23 @@ export function Portfolio() {
         </div>
 
         {/* Certificates Section */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-semibold text-blue-300 mb-10 flex items-center">
-            <Certificate className="mr-3 h-8 w-8" />
+        <div className="mb-12 sm:mb-16 px-2 sm:px-0">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-blue-300 mb-8 sm:mb-10 flex items-center justify-center sm:justify-start">
+            <Certificate className="mr-2 sm:mr-3 h-6 w-6 sm:h-8 sm:w-8" />
             Certificates & Certifications
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {certificates.map((cert, index) => (
               <Card
                 key={index}
                 className="hover:shadow-2xl transition-all duration-300 bg-slate-800/80 border-slate-700 hover:border-blue-500/50"
               >
                 <CardHeader className="text-center">
-                  <div className="mx-auto mb-6 p-4 bg-blue-600/20 rounded-full w-fit">
-                    <Certificate className="h-10 w-10 text-blue-400" />
+                  <div className="mx-auto mb-4 sm:mb-6 p-3 sm:p-4 bg-blue-600/20 rounded-full w-fit">
+                    <Certificate className="h-8 w-8 sm:h-10 sm:w-10 text-blue-400" />
                   </div>
-                  <CardTitle className="text-white text-lg">{cert.title}</CardTitle>
-                  <CardDescription className="text-slate-300">
+                  <CardTitle className="text-white text-base sm:text-lg px-2">{cert.title}</CardTitle>
+                  <CardDescription className="text-slate-300 text-sm px-2">
                     {cert.issuer} • {cert.date}
                   </CardDescription>
                 </CardHeader>
@@ -139,12 +143,12 @@ export function Portfolio() {
         </div>
 
         {/* Awards Section */}
-        <div>
-          <h3 className="text-3xl font-semibold text-blue-300 mb-10 flex items-center">
-            <Award className="mr-3 h-8 w-8" />
+        <div className="px-2 sm:px-0">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-blue-300 mb-8 sm:mb-10 flex items-center justify-center sm:justify-start">
+            <Award className="mr-2 sm:mr-3 h-6 w-6 sm:h-8 sm:w-8" />
             Awards & Recognition
           </h3>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {awards.map((award, index) => (
               <Card
                 key={index}
@@ -152,17 +156,17 @@ export function Portfolio() {
               >
                 <CardHeader>
                   <div className="flex items-start justify-between">
-                    <div>
-                      <CardTitle className="text-white text-xl">{award.title}</CardTitle>
-                      <CardDescription className="text-slate-300">
+                    <div className="flex-1 pr-4">
+                      <CardTitle className="text-white text-lg sm:text-xl">{award.title}</CardTitle>
+                      <CardDescription className="text-slate-300 text-sm sm:text-base">
                         {award.organization} • {award.date}
                       </CardDescription>
                     </div>
-                    <Award className="h-8 w-8 text-yellow-400 flex-shrink-0" />
+                    <Award className="h-6 w-6 sm:h-8 sm:w-8 text-yellow-400 flex-shrink-0" />
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-300">{award.description}</p>
+                  <p className="text-slate-300 text-sm sm:text-base">{award.description}</p>
                 </CardContent>
               </Card>
             ))}
