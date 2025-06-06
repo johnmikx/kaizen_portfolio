@@ -13,7 +13,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-2xl bg-gradient-to-br from-blue-800 to-slate-700">
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/profile-photo.jpg"
                   alt="John Mike Asuncion"
                   width={400}
                   height={400}
