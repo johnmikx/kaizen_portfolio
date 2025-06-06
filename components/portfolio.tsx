@@ -80,16 +80,14 @@ export function Portfolio() {
 
   const awards = [
     {
-      title: "Award Title 1",
-      organization: "Awarding Organization",
-      date: "2024",
-      description: "Brief description of the achievement",
-    },
-    {
-      title: "Award Title 2",
-      organization: "Another Organization",
-      date: "2023",
-      description: "Another significant achievement",
+      title: "General Engineering and Sciences Quiz Bee: 1st Runner Up",
+      organization: "Association of Concerned Computer Engineering Students for Service (ACCESS)",
+      date: "December 12, 2024",
+      description: (
+        <>
+          Earned the title of <strong>1st Runner Up</strong> in the CPE Fair 2024 held by the Association of Concerned Computer Engineering Students for Service (ACCESS).
+        </>
+      ),
     },
   ]
 
