@@ -35,7 +35,7 @@ export function Portfolio() {
           <strong>Impact of Country, Experience Level, and Remote Ratio on Salaries</strong>, <strong>Predictive Model for Salary Estimation</strong>, and <strong>Expanded Model with Additional Features</strong>.
         </>
       ),
-      link: "https://github.com/yourusername/project1",
+      link: "https://github.com/johnmikx/datacamp_mini_projects/blob/main/competition_notebooks/demystifying_data_salaries/demystifying_data_salaries_level3_nb.ipynb",
       tags: ["Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-Learn"],
     },
   ]
