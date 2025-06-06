@@ -10,8 +10,8 @@ export function Footer() {
             <Image
               src="/logo.png"
               alt="Kaizen Logo"
-              width={36}
-              height={36}
+              width={40}
+              height={40}
               className="rounded-sm"
             />
             <div>
