@@ -7,25 +7,25 @@ export function Contact() {
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://instagram.com/yourusername",
+      url: "https://www.instagram.com/john.mikx/",
       color: "hover:text-pink-400",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://www.linkedin.com/in/johnmikx/",
       color: "hover:text-blue-400",
     },
     {
       name: "Facebook",
       icon: Facebook,
-      url: "https://facebook.com/yourusername",
+      url: "https://www.facebook.com/mikekaizennn",
       color: "hover:text-blue-500",
     },
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/yourusername",
+      url: "https://github.com/johnmikx",
       color: "hover:text-slate-300",
     },
   ]
