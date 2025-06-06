@@ -30,6 +30,10 @@ export function About() {
                   <i>"I'm a student eager to learn, grow, and bring fresh perspectives to the table."</i>
                 </p>
 
+                <p>
+                  <i>"I have an utmost confidence in myself, and I know I'm gonna do great things in the <strong>field of AI</strong>."</i>
+                </p>
+
                 <p className="text-blue-300 font-medium border-t border-slate-600 pt-4 sm:pt-6 mt-6 sm:mt-8">
                   Open to internships, collaboration, or just vibing with fellow tech enthusiasts. Let's build cool
                   stuff.
