@@ -14,7 +14,7 @@ export function Portfolio() {
         </>
       ),
       link: "https://github.com/johnmikx/datacamp_mini_projects/blob/main/competition_notebooks/demystifying_data_salaries/demystifying_data_salaries_level1_nb.ipynb",
-      tags: ["Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
+      tags: ["DataCamp", "Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
     },
     {
       title: "How Are Tech Salaries Shaping Up in 2020–2024? Part 2",
@@ -25,7 +25,7 @@ export function Portfolio() {
         </>
       ),
       link: "https://github.com/johnmikx/datacamp_mini_projects/blob/main/competition_notebooks/demystifying_data_salaries/demystifying_data_salaries_level2_nb.ipynb",
-      tags: ["Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
+      tags: ["DataCamp", "Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
     },
     {
       title: "How Are Tech Salaries Shaping Up in 2020–2024? Part 3",
@@ -36,24 +36,45 @@ export function Portfolio() {
         </>
       ),
       link: "https://github.com/johnmikx/datacamp_mini_projects/blob/main/competition_notebooks/demystifying_data_salaries/demystifying_data_salaries_level3_nb.ipynb",
-      tags: ["Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-Learn"],
+      tags: ["DataCamp", "Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-Learn"],
     },
   ]
 
   const certificates = [
     {
-      title: "Certificate Name 1",
-      issuer: "Issuing Organization",
-      date: "2024",
+      title: "The Fundamental Tournament of Calculus Certificate",
+      issuer: "Ateneo Mathematics Society",
+      date: "March 15, 2025",
       link: "https://certificate-link.com",
-      image: "/certificates/cert1.jpg",
+      image: "/certificates/the-fundamental-tournament-of-calculus-certificate.jpg",
     },
     {
-      title: "Certificate Name 2",
-      issuer: "Another Organization",
-      date: "2024",
+      title: "InnOlympics 2025 Certificate",
+      issuer: "Google Developer Student Clubs PLM",
+      date: "January 12, 2025",
       link: "https://certificate-link.com",
-      image: "/certificates/cert2.jpg",
+      image: "/certificates/innolympics-2025-certificate.jpg",
+    },
+    {
+      title: "AI Fundamentals Certification",
+      issuer: "DataCamp",
+      date: "January 2, 2025",
+      link: "https://www.datacamp.com/skill-verification/AIF0027630990889",
+      image: "/certificates/ai-fundamentals-certification.jpg",
+    },
+    {
+      title: "AI Fundamentals Track Certificate",
+      issuer: "DataCamp",
+      date: "January 2, 2025",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/track/ec2b4e4fba025199971016b3e46f0f7e029c5f7f",
+      image: "/certificates/ai-fundamentals-track-certificate.jpg",
+    },
+    {
+      title: "Understanding Data Topics Track Certificate",
+      issuer: "DataCamp",
+      date: "December 28, 2024",
+      link: "https://www.datacamp.com/completed/statement-of-accomplishment/track/4d81d00567d933b9ea71b5cf7d2b282b21946c42",
+      image: "/certificates/understanding-data-topics-track-certificate.jpg",
     },
   ]
 
