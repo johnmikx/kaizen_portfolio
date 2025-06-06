@@ -52,11 +52,11 @@ export function Contact() {
             <CardContent className="space-y-4 sm:space-y-6">
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <Mail className="h-5 w-5 sm:h-6 sm:w-6 text-blue-400 flex-shrink-0" />
-                <span className="text-slate-200 text-sm sm:text-lg break-all">johnmike.asuncion@email.com</span>
+                <span className="text-slate-200 text-sm sm:text-lg break-all">johnmikeasuncion17@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <Phone className="h-5 w-5 sm:h-6 sm:w-6 text-blue-400 flex-shrink-0" />
-                <span className="text-slate-200 text-sm sm:text-lg">+63 XXX XXX XXXX</span>
+                <span className="text-slate-200 text-sm sm:text-lg">+63 915 432 0935</span>
               </div>
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <MapPin className="h-5 w-5 sm:h-6 sm:w-6 text-blue-400 flex-shrink-0" />
@@ -116,7 +116,7 @@ export function Contact() {
                 variant="secondary"
                 className="bg-white text-blue-600 hover:bg-blue-50 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg w-full sm:w-auto"
               >
-                <a href="mailto:johnmike.asuncion@email.com">
+                <a href="mailto:johnmikeasuncion17@gmail.com">
                   <Mail className="mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5" />
                   Send Me an Email
                 </a>
