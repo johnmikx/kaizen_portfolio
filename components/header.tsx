@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,8 +21,17 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo/Brand */}
-          <Link href="/" className="text-xl sm:text-2xl font-bold text-blue-300 hover:text-blue-200 transition-colors">
-            Kaizen
+          <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/logo.png"
+              alt="Kaizen Logo"
+              width={32}
+              height={32}
+              className="rounded-sm"
+            />
+            <span className="text-xl sm:text-2xl font-bold text-blue-300 hover:text-blue-200 transition-colors">
+              Kaizen
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
