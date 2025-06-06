@@ -14,7 +14,7 @@ export function Resume() {
     },
     {
       title: "Curriculum Vitae",
-      description: "Comprehensive CV using Harvard template format",
+      description: "Comprehensive CV using Harvard template",
       filename: "John_Mike_Asuncion_CV.pdf",
       filePath: "/documents/cv.pdf",
     },
