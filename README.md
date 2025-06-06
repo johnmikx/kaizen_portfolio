@@ -2,6 +2,13 @@
 
 A personal academic and career portfolio for **John Mike Asuncion**, styled using the **Kaizen principle** of continuous improvement. This [website](https://kaizen-portfolio.vercel.app/) serves as a professional hub to showcase projects, certifications, documents, and achievements.
 
+### Course Information
+
+- **Course:** `GEED 005` Purposive Communication
+- **Assignment:** *2.1.a. Academic/Professional Portfolio*
+- **Author:** :ninja: **John Mike Asuncion** (BSCPE 1-2)
+- **Professor:** Blessy P. Jerusalem
+
 ## 📦 Tech Stack
 
 * **Framework**: Next.js 14 (App Router)
