@@ -5,7 +5,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <h3 className="text-2xl font-bold text-blue-300">Kaizen</h3>
-            <p className="text-slate-400 mt-2">Continuous improvement through technology</p>
+            <p className="text-slate-400 mt-2">Continuous Improvement Through Technology</p>
           </div>
 
           <div className="text-center md:text-right">
