@@ -45,14 +45,14 @@ export function Portfolio() {
       title: "The Fundamental Tournament of Calculus Certificate",
       issuer: "Ateneo Mathematics Society",
       date: "March 15, 2025",
-      link: "https://certificate-link.com",
+      link: "https://github.com/johnmikx/kaizen_portfolio/blob/main/public/certificates/the-fundamental-tournament-of-calculus-certificate.jpg",
       image: "/certificates/the-fundamental-tournament-of-calculus-certificate.jpg",
     },
     {
       title: "InnOlympics 2025 Certificate",
       issuer: "Google Developer Student Clubs PLM",
       date: "January 12, 2025",
-      link: "https://certificate-link.com",
+      link: "https://github.com/johnmikx/kaizen_portfolio/blob/main/public/certificates/innolympics-2025-certificate.jpg",
       image: "/certificates/innolympics-2025-certificate.jpg",
     },
     {
