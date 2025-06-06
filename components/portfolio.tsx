@@ -6,20 +6,35 @@ import { ExternalLink, Award, BadgeIcon as Certificate, FolderOpen } from "lucid
 export function Portfolio() {
   const projects = [
     {
-      title: "How Are Tech Salaries Shaping Up in 2020-2024? Part 1",
-      description: "This **Level 1 analysis** examines tech salary trends from 2020 to 2024 using a dataset of 57,194 salary records. The report addresses three key objectives to provide actionable insights for an international HR consultancy: **Dataset Scope**, **Salary Comparison between Data Scientists and Data Engineers**, and **Remote Work in the US**.",
+      title: "How Are Tech Salaries Shaping Up in 2020–2024? Part 1",
+      description: (
+        <>
+          This <strong>Level 1 analysis</strong> examines tech salary trends from 2020 to 2024 using a dataset of 57,194 salary records. The report addresses three key objectives to provide actionable insights for an international HR consultancy:{" "}
+          <strong>Dataset Scope</strong>, <strong>Salary Comparison between Data Scientists and Data Engineers</strong>, and <strong>Remote Work in the US</strong>.
+        </>
+      ),
       link: "https://github.com/johnmikx/datacamp_mini_projects/blob/main/competition_notebooks/demystifying_data_salaries/demystifying_data_salaries_level1_nb.ipynb",
       tags: ["Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
     },
     {
-      title: "How Are Tech Salaries Shaping Up in 2020-2024? Part 2",
-      description: "This **Level 2 analysis** examines tech salary trends from 2020 to 2024 using a dataset of 57,194 salary records. The report addresses three key objectives to provide actionable insights for an international HR consultancy: **Top 5 Job Titles by Salary**, **Remote Work Salary Trends**, and **Salary Distribution by Company Size**.",
+      title: "How Are Tech Salaries Shaping Up in 2020–2024? Part 2",
+      description: (
+        <>
+          This <strong>Level 2 analysis</strong> examines tech salary trends from 2020 to 2024 using a dataset of 57,194 salary records. The report addresses three key objectives to provide actionable insights for an international HR consultancy:{" "}
+          <strong>Top 5 Job Titles by Salary</strong>, <strong>Remote Work Salary Trends</strong>, and <strong>Salary Distribution by Company Size</strong>.
+        </>
+      ),
       link: "https://github.com/johnmikx/datacamp_mini_projects/blob/main/competition_notebooks/demystifying_data_salaries/demystifying_data_salaries_level2_nb.ipynb",
       tags: ["Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
     },
     {
-      title: "How Are Tech Salaries Shaping Up in 2020-2024? Part 3",
-      description: "This **Level 3 analysis** examines tech salary trends from 2020 to 2024 using a dataset of 57,194 salary records. The report addresses three key objectives to provide actionable insights for an international HR consultancy: **Impact of Country, Experience Level, and Remote Ratio on Salaries**, **Predictive Model for Salary Estimation**, and **Expanded Model with Additional Features**.",
+      title: "How Are Tech Salaries Shaping Up in 2020–2024? Part 3",
+      description: (
+        <>
+          This <strong>Level 3 analysis</strong> examines tech salary trends from 2020 to 2024 using a dataset of 57,194 salary records. The report addresses three key objectives to provide actionable insights for an international HR consultancy:{" "}
+          <strong>Impact of Country, Experience Level, and Remote Ratio on Salaries</strong>, <strong>Predictive Model for Salary Estimation</strong>, and <strong>Expanded Model with Additional Features</strong>.
+        </>
+      ),
       link: "https://github.com/yourusername/project1",
       tags: ["Python", "Jupyter", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-Learn"],
     },
