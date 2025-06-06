@@ -32,8 +32,7 @@ export function About() {
 
                 <p>
                   <i>"I have an utmost confidence in myself, and I know I'm gonna do great things in the <strong>field of AI</strong>."</i>
-                </p>
-                <p>
+                  <br>
                   <i>—Oljen Gurelli</i>
                 </p>
 
