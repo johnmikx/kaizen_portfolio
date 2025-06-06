@@ -34,7 +34,11 @@ export function Hero() {
                 John Mike <span className="text-blue-300 block sm:inline">Asuncion</span>
               </h1>
               <p className="text-lg sm:text-xl lg:text-2xl text-blue-200 font-medium leading-relaxed px-4 sm:px-0">
-                Computer Engineering Student | Polymath Apprentice | <span className="text-blue-300">Kaizen</span>
+                <span className="text-blue-500">Computer Engineering Student</span>
+                <span className="mx-2 text-blue-300">|</span>
+                <span className="text-blue-200">Polymath Apprentice</span>
+                <span className="mx-2 text-blue-100">|</span>
+                <span className="text-blue-50">Kaizen</span>
               </p>
             </div>
 
