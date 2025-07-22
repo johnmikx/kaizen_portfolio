@@ -19,7 +19,7 @@ export function About() {
                 </p>
 
                 <p>
-                  As a freshman at the{" "}
+                  As a sophomore at the{" "}
                   <strong className="text-blue-300">Polytechnic University of the Philippines</strong>, I'm currently
                   immersing myself in the foundations of data science, engineering, machine learning, and artificial
                   intelligence — all while keeping things fun and creative. I approach tech with adaptability,
