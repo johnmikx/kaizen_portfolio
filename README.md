@@ -65,10 +65,18 @@ kaizen_portfolio/
 ├── lib/
 │   └── utils.ts
 ├── public/
-│   └── certificates
-│       └── README.md
-│   └── documents
-│       └── README.md
+│   ├── certificates/
+│   │   ├── ai-fundamentals-certification.jpg
+│   │   ├── ai-fundamentals-track-certificate.jpg
+│   │   ├── innolympics-2025-certificate.jpg
+│   │   ├── README.md
+│   │   ├── the-fundamental-tournament-of-calculus-certificate.jpg
+│   │   └── understanding-data-topics-track-certificate.jpg
+│   └── documents/
+│       ├── cover-letter.pdf
+│       ├── cv.pdf
+│       ├── README.md
+│       └── resume.pdf
 ├── styles/
 │   └── globals.css
 ├── .gitignore
